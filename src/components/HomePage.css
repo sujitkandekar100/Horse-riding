@@ -1,0 +1,76 @@
+.home-page {
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.header {
+  padding: 2rem;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.horse-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.horse-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 300px;
+  text-align: left;
+}
+
+.horse-card:hover {
+  transform: translateY(-10px);
+}
+
+.horse-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.horse-card h2 {
+  margin: 1rem;
+  color: #333;
+}
+
+.horse-card p {
+  margin: 0 1rem 1rem;
+  color: #666;
+}
+
+.book-now-container {
+  margin: 2rem;
+}
+
+.book-now-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #0056b3;
+}
